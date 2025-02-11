@@ -1,7 +1,17 @@
-import Greet from "./component/Greet"
+// import Greet from "./component/Greet"
+
+import Footer from "./component/Footer"
+import Header from "./component/Header"
+import MainContent from "./component/MainContent"
 
 function App() {
-  return <Greet />
+  return (
+    <>
+    <Header/>
+    <MainContent/>
+    <Footer/>
+    </>
+  )
 }
 
 export default App
